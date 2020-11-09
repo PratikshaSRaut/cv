@@ -3,6 +3,7 @@
   <script type="text/javascript">
 function subMit() {
   alert("Submitted Successfully....");
+  document.getElementById("myForm").reset();
 }
 </script>
   <head>
@@ -16,7 +17,7 @@ function subMit() {
     <p>Email : pratiksharaut6266@gmail.com</p>
     <p>Mobile : 9834153377</p>
     <hr>
-    <form action="mailto:pratiksharaut6266@gmail.com" method="post" enctype="text/plain">
+    <form action="mailto:pratiksharaut6266@gmail.com" id="myForm" method="post" enctype="text/plain">
       <label>Enter Name :</label>
       <input type="text" name="Name" value=""><br>
       <label>Enter Email : </label>
